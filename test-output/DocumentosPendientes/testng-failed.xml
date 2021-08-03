@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DocumentosPendientes]" guice-stage="DEVELOPMENT">
+  <test name="TestDocumentosPendientes(failed)">
+    <classes>
+      <class name="DocumentosPendientes.FirmaPerfil9">
+        <methods>
+          <include name="firmarConEmailHP"/>
+          <include name="sinIngresarEmail"/>
+          <include name="sinIngresarClave"/>
+          <include name="FirmaPerfil9HP"/>
+          <include name="ingresarClaveIncorrecta"/>
+          <include name="starWebDriver"/>
+          <include name="ingresarEmailInvalido"/>
+          <include name="IngresarArchivosDiferentes"/>
+        </methods>
+      </class> <!-- DocumentosPendientes.FirmaPerfil9 -->
+      <class name="DocumentosPendientes.FirmaPerfil4">
+        <methods>
+          <include name="FirmaPerfil4HP"/>
+          <include name="sinIngresarEmail"/>
+          <include name="firmarConEmailHP"/>
+          <include name="starWebDriver"/>
+          <include name="sinIngresarClave"/>
+          <include name="ingresarClaveIncorrecta"/>
+          <include name="ingresarEmailInvalido"/>
+        </methods>
+      </class> <!-- DocumentosPendientes.FirmaPerfil4 -->
+      <class name="DocumentosPendientes.DocumentosconErrores">
+        <methods>
+          <include name="FirmarDocumento9"/>
+          <include name="FirmarDocumento8"/>
+          <include name="FirmarDocumento7"/>
+          <include name="FirmarDocumento6"/>
+          <include name="FirmarDocumento5"/>
+          <include name="FirmarDocumento10"/>
+          <include name="FirmarDocumento4"/>
+          <include name="starWebDriver"/>
+          <include name="FirmarDocumento3"/>
+          <include name="FirmarDocumento2"/>
+          <include name="FirmarDocumento1"/>
+        </methods>
+      </class> <!-- DocumentosPendientes.DocumentosconErrores -->
+      <class name="DocumentosPendientes.FirmaPerfil13">
+        <methods>
+          <include name="sinIngresarEmail"/>
+          <include name="starWebDriver"/>
+          <include name="ingresarClaveIncorrecta"/>
+          <include name="ingresarEmailInvalido"/>
+          <include name="sinIngresarClave"/>
+          <include name="firmarConEmailHP"/>
+          <include name="FirmaPerfil13HP"/>
+        </methods>
+      </class> <!-- DocumentosPendientes.FirmaPerfil13 -->
+      <class name="DocumentosPendientes.Firmar6Firmantes">
+        <methods>
+          <include name="FirmarDoc"/>
+        </methods>
+      </class> <!-- DocumentosPendientes.Firmar6Firmantes -->
+      <class name="DocumentosPendientes.Firmar1Invitado5firmantes">
+        <methods>
+          <include name="starWebDriver"/>
+          <include name="firmaInvitadoh14"/>
+          <include name="PrimerFirmanteFirma"/>
+        </methods>
+      </class> <!-- DocumentosPendientes.Firmar1Invitado5firmantes -->
+      <class name="DocumentosPendientes.FirmaPerfil8">
+        <methods>
+          <include name="sinIngresarEmail"/>
+          <include name="starWebDriver"/>
+          <include name="FirmaPerfil8HP"/>
+          <include name="ingresarEmailIncorrecto"/>
+          <include name="ingresarEmailInvalido"/>
+          <include name="firmarConEmailHP"/>
+        </methods>
+      </class> <!-- DocumentosPendientes.FirmaPerfil8 -->
+      <class name="DocumentosPendientes.FlujosDeFirma">
+        <methods>
+          <include name="flujoConcurrente"/>
+          <include name="RLalInicio"/>
+          <include name="firmaTodosPerfiles"/>
+          <include name="Ruta_SinRL"/>
+          <include name="dosFirmantes"/>
+          <include name="RLalFinal"/>
+          <include name="dosFirmantesyObservador"/>
+        </methods>
+      </class> <!-- DocumentosPendientes.FlujosDeFirma -->
+    </classes>
+  </test> <!-- TestDocumentosPendientes(failed) -->
+</suite> <!-- Failed suite [DocumentosPendientes] -->

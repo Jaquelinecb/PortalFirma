@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [IniciarSesion]" guice-stage="DEVELOPMENT">
+  <test name="InicioDeSesion(failed)">
+    <classes>
+      <class name="com.reportes.portalfirma.InicioDeSesion">
+        <methods>
+          <include name="closeDriver"/>
+          <include name="starWebDriver"/>
+          <include name="sinIngresarClave"/>
+        </methods>
+      </class> <!-- com.reportes.portalfirma.InicioDeSesion -->
+    </classes>
+  </test> <!-- InicioDeSesion(failed) -->
+</suite> <!-- Failed suite [IniciarSesion] -->

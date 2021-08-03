@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="LoginPrecertifDesbloqueo" duration-ms="60777" started-at="2021-07-21T19:00:42Z" finished-at="2021-07-21T19:01:43Z">
+    <groups>
+    </groups>
+    <test name="LoginPrecertifDesbloqueo" duration-ms="60777" started-at="2021-07-21T19:00:42Z" finished-at="2021-07-21T19:01:43Z">
+      <class name="LoginPrecertificacionBloqueo.precertificacionPerfil4">
+        <test-method status="PASS" signature="starWebDriver()[pri:0, instance:LoginPrecertificacionBloqueo.precertificacionPerfil4@651aed93]" name="starWebDriver" is-config="true" duration-ms="4503" started-at="2021-07-21T14:00:42Z" finished-at="2021-07-21T14:00:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starWebDriver -->
+        <test-method status="PASS" signature="dejarCamposVacios()[pri:1, instance:LoginPrecertificacionBloqueo.precertificacionPerfil4@651aed93]" name="dejarCamposVacios" duration-ms="8093" started-at="2021-07-21T14:00:47Z" finished-at="2021-07-21T14:00:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dejarCamposVacios -->
+        <test-method status="PASS" signature="ingresarClavesNuevasDiferentes()[pri:2, instance:LoginPrecertificacionBloqueo.precertificacionPerfil4@651aed93]" name="ingresarClavesNuevasDiferentes" duration-ms="7148" started-at="2021-07-21T14:00:55Z" finished-at="2021-07-21T14:01:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ingresarClavesNuevasDiferentes -->
+        <test-method status="PASS" signature="ingresarClavesDeLlavePrivadaDiferentes()[pri:3, instance:LoginPrecertificacionBloqueo.precertificacionPerfil4@651aed93]" name="ingresarClavesDeLlavePrivadaDiferentes" duration-ms="7527" started-at="2021-07-21T14:01:02Z" finished-at="2021-07-21T14:01:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ingresarClavesDeLlavePrivadaDiferentes -->
+        <test-method status="PASS" signature="ingresarClaveNuevaSinParametros()[pri:4, instance:LoginPrecertificacionBloqueo.precertificacionPerfil4@651aed93]" name="ingresarClaveNuevaSinParametros" duration-ms="9489" started-at="2021-07-21T14:01:09Z" finished-at="2021-07-21T14:01:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ingresarClaveNuevaSinParametros -->
+        <test-method status="PASS" signature="ingresarClavePrivadaSinParametros()[pri:5, instance:LoginPrecertificacionBloqueo.precertificacionPerfil4@651aed93]" name="ingresarClavePrivadaSinParametros" duration-ms="10003" started-at="2021-07-21T14:01:19Z" finished-at="2021-07-21T14:01:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ingresarClavePrivadaSinParametros -->
+        <test-method status="PASS" signature="ingresarClaveActualIncorrecta()[pri:6, instance:LoginPrecertificacionBloqueo.precertificacionPerfil4@651aed93]" name="ingresarClaveActualIncorrecta" duration-ms="11779" started-at="2021-07-21T14:01:29Z" finished-at="2021-07-21T14:01:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ingresarClaveActualIncorrecta -->
+        <test-method status="PASS" signature="precertificacion4HP()[pri:7, instance:LoginPrecertificacionBloqueo.precertificacionPerfil4@651aed93]" name="precertificacion4HP" duration-ms="2108" started-at="2021-07-21T14:01:41Z" finished-at="2021-07-21T14:01:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precertificacion4HP -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:LoginPrecertificacionBloqueo.precertificacionPerfil4@651aed93]" name="closeDriver" is-config="true" duration-ms="104" started-at="2021-07-21T14:01:43Z" finished-at="2021-07-21T14:01:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- LoginPrecertificacionBloqueo.precertificacionPerfil4 -->
+    </test> <!-- LoginPrecertifDesbloqueo -->
+  </suite> <!-- LoginPrecertifDesbloqueo -->
+  <suite name="DocumentosCancelados" duration-ms="77849" started-at="2021-07-21T19:01:43Z" finished-at="2021-07-21T19:03:01Z">
+    <groups>
+    </groups>
+    <test name="DocumentosCancelados" duration-ms="77849" started-at="2021-07-21T19:01:43Z" finished-at="2021-07-21T19:03:01Z">
+      <class name="DocumentosCancelados.CancelarDocumentoHP">
+        <test-method status="PASS" signature="starWebDriver()[pri:0, instance:DocumentosCancelados.CancelarDocumentoHP@418c5a9c]" name="starWebDriver" is-config="true" duration-ms="7767" started-at="2021-07-21T14:01:43Z" finished-at="2021-07-21T14:01:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starWebDriver -->
+        <test-method status="PASS" signature="cancelarDocumentoHappyPath()[pri:1, instance:DocumentosCancelados.CancelarDocumentoHP@418c5a9c]" name="cancelarDocumentoHappyPath" duration-ms="35444" started-at="2021-07-21T14:01:51Z" finished-at="2021-07-21T14:02:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancelarDocumentoHappyPath -->
+        <test-method status="PASS" signature="sinIngresarMotivoDeCancelacion()[pri:2, instance:DocumentosCancelados.CancelarDocumentoHP@418c5a9c]" name="sinIngresarMotivoDeCancelacion" duration-ms="20504" started-at="2021-07-21T14:02:26Z" finished-at="2021-07-21T14:02:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sinIngresarMotivoDeCancelacion -->
+        <test-method status="PASS" signature="ingresarMotivoDeCancelacionConCaracteresEspeciales()[pri:3, instance:DocumentosCancelados.CancelarDocumentoHP@418c5a9c]" name="ingresarMotivoDeCancelacionConCaracteresEspeciales" duration-ms="13999" started-at="2021-07-21T14:02:47Z" finished-at="2021-07-21T14:03:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ingresarMotivoDeCancelacionConCaracteresEspeciales -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:DocumentosCancelados.CancelarDocumentoHP@418c5a9c]" name="closeDriver" is-config="true" duration-ms="133" started-at="2021-07-21T14:03:01Z" finished-at="2021-07-21T14:03:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- DocumentosCancelados.CancelarDocumentoHP -->
+    </test> <!-- DocumentosCancelados -->
+  </suite> <!-- DocumentosCancelados -->
+</testng-results>
